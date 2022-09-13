@@ -1,9 +1,9 @@
-#include "_putchar.h"
+#include "holberton.h"
 
 /**
- * main - prints _putchar
+ * main - prints Holberton
  *
- * Description: prints _putchar
+ * Description: prints Holberton
  *
  * Return: 0 (Success)
  */
