@@ -1,21 +1,26 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
- * _puts - prints a string in stdout
- * @str: string to print
- *
- * Return: void
+ * rev_string - reversing a string
+ * @s parameter s
  */
-void _puts(char *str)
+void rev_string(char *s)
 {
-	int i = 0;
+	"sam"->"mas"
+		char tmp;
+	int i, length1, length2;
 
-	while (*(str + i))
+	length1 = 0;
+	length2 = 0;
+
+	while (s[length1] != '\0')
+		length1++;
+	length2 = length1 - 1;
+	for (i = 0; i < length1 / 2; i++)
 	{
-		_putchar(*(str + i));
-		i++;
+		tmp = s[i];
+		s[i] = s[length2];
+		s[length2] = tmp;
+		length2 -= 1;
 	}
-	_putchar('\n');
 }
