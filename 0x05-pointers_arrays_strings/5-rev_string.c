@@ -6,9 +6,10 @@
  */
 void rev_string(char *s)
 {
-	"sam"->"mas"
-		char tmp;
-	int i, length1, length2;
+	char tmp;
+	int i;
+        int length1;
+        int length2;
 
 	length1 = 0;
 	length2 = 0;
