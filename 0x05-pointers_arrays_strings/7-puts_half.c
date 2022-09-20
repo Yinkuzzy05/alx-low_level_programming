@@ -4,6 +4,8 @@
 /**
  * puts_half - puts half
  *@str: string parameter
+ *
+ * Return: void
  */
 void puts_half(char *str)
 {
