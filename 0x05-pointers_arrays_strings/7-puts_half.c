@@ -5,7 +5,7 @@
  * puts_half - puts half
  *@str: string parameter
  */
-void puts_half(har *str)
+void puts_half(char *str)
 {
 	int x;
 	int y;
